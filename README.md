@@ -20,13 +20,3 @@ args[7]: whether speed up program in reverting index and saving result? true or 
 
 Example:
 java -Xms512G -Xmx650G -jar EntityLinkingExtraction.jar "./Input/en20161001/index.txt" "1" "./Input/en20161001/content.xml" "3" "./SplittedFiles" "./Output/en20161001" "200" "true"
-
-
-If you have further problem, don't hesitate to contact me by E-Mail: zhaoyang868686@gmail.com. Have fun!
-
-
-Yang Zhao
-
-2016-10-13
-Mannheim
-Germany
