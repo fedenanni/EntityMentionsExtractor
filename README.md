@@ -1,15 +1,11 @@
 Instruction For "EntityLinkingExtraction.jar"
 
 
-This program is developed with JDK 8u102 by Eclipse Java EE IDE. The whole program is implemented 100% by Java and does not need any third-party library. Thus, it can be executed in any platform with Java Runtime Environment (JRE) 8.102 or higher version. In order to handle the full size data of Wikipedia, it is strongly suggested to execute this program on server(s) (usually in Unix/Linux environment), however there is usually old version Java or unofficial Java already installed; therefore, two commands are required to change the Java home (change the folder path if required):
-export PATH="~/software/jdk1.8.0_102/bin":$PATH
-export PATH="$PATH:~/software/jdk1.8.0_102/bin/"
-
+This program is developed with JDK 8u102 by Eclipse Java EE IDE. The whole program is implemented 100% by Java and does not need any third-party library. Thus, it can be executed in any platform with Java Runtime Environment (JRE) 8.102 or higher version. 
 
 JVM Parameters:
 -Xms: The initial and minimum Java heap size.
 -Xmx: The maximum Java heap size.
-
 
 Program Parameters:
 args[0]: file path of index file; set "-1" for wikia or no index file. 
